@@ -1,0 +1,34 @@
+# Core Dependencies
+Flask==3.0.0
+Flask-CORS==4.0.0
+Werkzeug==3.0.1
+
+# Machine Learning & NLP
+sentence-transformers==2.2.2
+transformers==4.35.2
+torch==2.1.1
+numpy==1.24.3
+scikit-learn==1.3.2
+faiss-cpu==1.7.4
+huggingface-hub==0.25.2
+
+# PDF Processing
+PyPDF2==3.0.1
+pdfplumber==0.10.3
+
+# Text Processing
+nltk==3.8.1
+spacy==3.7.2
+
+# Utilities
+python-dotenv==1.0.0
+requests==2.31.0
+tqdm==4.66.1
+pandas==2.1.4
+
+# API & Web
+gunicorn==21.2.0
+
+# Optional: For advanced PDF parsing
+# grobid-client-python==0.0.9
+

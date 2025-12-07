@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced RAG Literature Navigation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 Enhanced RAG Literature Navigation</h1>
+            <p class="subtitle">Multi-Modal Retrieval with Topic Clustering</p>
+            <div class="improvements-banner">
+                <div class="improvement-badge">
+                    <span class="badge-icon">🔍</span>
+                    <span><strong>Improvement 1:</strong> Multi-Modal Search (Text + Metadata)</span>
+                </div>
+                <div class="improvement-badge">
+                    <span class="badge-icon">📊</span>
+                    <span><strong>Improvement 2:</strong> Topic Clustering & Summarization</span>
+                </div>
+            </div>
+        </header>
+
+        <div class="controls">
+            <div class="control-group">
+                <button id="indexBtn" class="btn btn-primary">Index Papers</button>
+                <button id="statsBtn" class="btn btn-secondary">View Stats</button>
+                <button id="resetBtn" class="btn btn-danger">Reset Index</button>
+            </div>
+            <div id="statusMessage" class="status-message"></div>
+        </div>
+
+        <div class="search-section">
+            <div class="search-box">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    placeholder="Search for papers (e.g., 'machine learning transformers')"
+                    class="search-input"
+                >
+                <button id="searchBtn" class="btn btn-search">Search</button>
+            </div>
+            <div class="search-options">
+                <label>
+                    <input type="checkbox" id="useClustering" checked>
+                    Enable Topic Clustering (Improvement 2)
+                </label>
+                <label>
+                    <input type="checkbox" id="useHybrid" checked>
+                    Enable Multi-Modal Search (Improvement 1)
+                </label>
+                <label>
+                    Results: 
+                    <select id="topKSelect">
+                        <option value="5">5</option>
+                        <option value="10" selected>10</option>
+                        <option value="20">20</option>
+                        <option value="30">30</option>
+                    </select>
+                </label>
+            </div>
+        </div>
+
+        <div id="statsPanel" class="panel hidden">
+            <h2>Index Statistics</h2>
+            <div id="statsContent"></div>
+        </div>
+
+        <div id="resultsSection" class="hidden">
+            <div class="results-header">
+                <h2 id="resultsTitle">Search Results</h2>
+                <div id="resultsCount"></div>
+            </div>
+
+            <!-- Comparison View -->
+            <div id="comparisonSection" class="comparison-section hidden">
+                <h3>🔬 Improvement Comparison</h3>
+                <div class="comparison-grid">
+                    <div class="comparison-box">
+                        <h4>Base Method (Text Only)</h4>
+                        <div id="baseResults" class="comparison-results"></div>
+                    </div>
+                    <div class="comparison-box improved">
+                        <h4>Our Improved Method (Text + Metadata)</h4>
+                        <div id="improvedResults" class="comparison-results"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Clusters View -->
+            <div id="clustersView" class="clusters-container"></div>
+
+            <!-- List View -->
+            <div id="listView" class="results-list"></div>
+
+            <!-- Multi-Modal Indicator -->
+            <div id="multimodalInfo" class="info-panel hidden">
+                <h4>🔍 Multi-Modal Search Active</h4>
+                <p>This search uses <strong>both text content and metadata</strong> (authors, venue, keywords) to find relevant papers.</p>
+                <div id="searchBreakdown" class="search-breakdown"></div>
+            </div>
+        </div>
+
+        <div id="loadingIndicator" class="loading hidden">
+            <div class="spinner"></div>
+            <p>Processing...</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
