@@ -73,7 +73,7 @@ This project is an enhanced implementation of a Retrieval-Augmented Generation (
 
 ```bash
 # Navigate to project directory
-cd "Megaminds Assignment"
+cd "code"
 ```
 
 ### Step 2: Create Virtual Environment (Recommended)
@@ -1032,11 +1032,11 @@ This project is for academic/research purposes.
 
 ## 👤 Author
 
-[Your Name]
+[Utkarsh Yadav]
 
 ## 📧 Contact
 
-[Your Email]
+[utkarshyadav72a@gmail.com]
 
 ---
 
