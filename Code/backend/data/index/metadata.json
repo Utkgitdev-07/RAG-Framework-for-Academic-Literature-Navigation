@@ -1,0 +1,223 @@
+[
+  {
+    "title": "BERT: Pre-training of Deep Bidirectional Transformers for",
+    "authors": [],
+    "abstract": "ingpre-trainedlanguage representations todown- We introduce a new language representa- stream tasks: feature-based and fine-tuning. The tion model called BERT, which stands for feature-based approach, such as ELMo (Peters Bidirectional Encoder Representations from Transformers. Unlike recent language repre- et al., 2018a), uses task-specific architectures that sentation models (Peters et al., 2018a; Rad- include the pre-trained representations as addi- ford et al., 2018), BERT is designed to pre",
+    "keywords": [],
+    "doi": null,
+    "year": null,
+    "venue": null,
+    "affiliations": [],
+    "emails": [],
+    "references_count": 1,
+    "citations": [
+      "Taylor, 1953"
+    ]
+  },
+  {
+    "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+    "authors": [
+      "† Paul G.Allen SchoolofComputerScience& Engineering"
+    ],
+    "abstract": "training (Devlinetal., 2019), which includes a Language model pretraining has led to sig- careful evaluation of the effects of hyperparmeter nificant performance gains but careful com- tuning and training set size. We find that BERT parison between differentapproachesis chal- wassignificantly undertrained andproposeanim- lenging. Training is computationally expen- proved recipe for training BERT models, which sive,oftendoneonprivatedatasetsofdifferent we call RoBERTa, that can match or exceed th",
+    "keywords": [],
+    "doi": null,
+    "year": null,
+    "venue": null,
+    "affiliations": [],
+    "emails": [],
+    "references_count": 0,
+    "citations": []
+  },
+  {
+    "title": "Language Models are Few-Shot Learners",
+    "authors": [],
+    "abstract": "RecentworkhasdemonstratedsubstantialgainsonmanyNLPtasksandbenchmarksbypre-training onalargecorpusoftextfollowedbyfine-tuningonaspecifictask. Whiletypicallytask-agnostic inarchitecture,thismethodstillrequirestask-specificfine-tuningdatasetsofthousandsortensof thousandsofexamples. Bycontrast,humanscangenerallyperformanewlanguagetaskfromonly afewexamplesorfromsimpleinstructions–somethingwhichcurrentNLPsystemsstilllargely struggle to do. Here we show that scaling up language models greatly improves ",
+    "keywords": [],
+    "doi": null,
+    "year": null,
+    "venue": null,
+    "affiliations": [],
+    "emails": [],
+    "references_count": 0,
+    "citations": []
+  },
+  {
+    "title": "GPT-4 Technical Report",
+    "authors": [],
+    "abstract": "WereportthedevelopmentofGPT-4,alarge-scale,multimodalmodelwhichcan acceptimageandtextinputsandproducetextoutputs. Whilelesscapablethan humansinmanyreal-worldscenarios,GPT-4exhibitshuman-levelperformance onvariousprofessionalandacademicbenchmarks,includingpassingasimulated barexamwithascorearoundthetop10%oftesttakers. GPT-4isaTransformer- basedmodelpre-trainedtopredictthenexttokeninadocument. Thepost-training alignmentprocessresultsinimprovedperformanceonmeasuresoffactualityand adherencetodesired",
+    "keywords": [],
+    "doi": "10.18653/v1/P19-1472.",
+    "year": null,
+    "venue": null,
+    "affiliations": [],
+    "emails": [
+      "document.Correspondenceregardingthistechnicalreportcanbesenttogpt4-report@openai.com"
+    ],
+    "references_count": 92,
+    "citations": [
+      "39",
+      "40"
+    ]
+  },
+  {
+    "title": "A Survey of Large Language Models",
+    "authors": [
+      "Wayne Xin Zhao",
+      "Kun Zhou*",
+      "Junyi Li*",
+      "Tianyi Tang",
+      "Xiaolei Wang",
+      "Yupeng Hou",
+      "Yingqian Min",
+      "Beichen"
+    ],
+    "abstract": "by machine. Language is essentially a complex, intricate system of human expressions governed by grammatical rules. It poses a significantchallengetodevelopcapableartificialintelligence(AI)algorithmsforcomprehendingandgraspingalanguage.Asamajor approach,languagemodeling hasbeenwidelystudiedforlanguageunderstandingandgenerationinthepasttwodecades,evolving fromstatisticallanguagemodelstoneurallanguagemodels.Recently,pre-trainedlanguagemodels(PLMs)havebeenproposedbypre- trainingTransformermodelsove",
+    "keywords": [],
+    "doi": "",
+    "year": null,
+    "venue": null,
+    "affiliations": [],
+    "emails": [],
+    "references_count": 430,
+    "citations": [
+      "5",
+      "15",
+      "16",
+      "1"
+    ]
+  },
+  {
+    "title": "Language Models are Unsupervised Multitask Learners",
+    "authors": [
+      "Alec Radford*",
+      "Jeffrey Wu*",
+      "Rewon Child",
+      "David Luan",
+      "Dario Amodei**",
+      "Ilya Sutskever**"
+    ],
+    "abstract": "generalsystemswhichcanperformmanytasks–eventually Naturallanguageprocessingtasks,suchasques- without the need to manually create and label a training tionanswering,machinetranslation,readingcom- prehension, and summarization, are typically approached with supervised learning on task- ThedominantapproachtocreatingMLsystemsistocol- specificdatasets. Wedemonstratethatlanguage lect a dataset of training examples demonstrating correct modelsbegintolearnthesetaskswithoutanyex- behaviorforadesiredtask,",
+    "keywords": [],
+    "doi": null,
+    "year": null,
+    "venue": null,
+    "affiliations": [],
+    "emails": [
+      "alec@openai.com"
+    ],
+    "references_count": 0,
+    "citations": []
+  },
+  {
+    "title": "Improving Language Understanding",
+    "authors": [],
+    "abstract": "Natural language understanding comprises a wide range of diverse tasks such as textual entailment, question answering, semantic similarity assessment, and document classification. Although large unlabeled text corpora are abundant, labeleddataforlearningthesespecifictasksisscarce,makingitchallengingfor discriminativelytrainedmodelstoperformadequately. Wedemonstratethatlarge gainsonthesetaskscanberealizedbygenerativepre-trainingofalanguagemodel onadiversecorpusofunlabeledtext,followedbydiscrimina",
+    "keywords": [],
+    "doi": null,
+    "year": null,
+    "venue": null,
+    "affiliations": [],
+    "emails": [
+      "tim@openai.com",
+      "ilyasu@openai.com",
+      "alec@openai.com",
+      "karthikn@openai.com"
+    ],
+    "references_count": 71,
+    "citations": [
+      "61",
+      "44",
+      "38",
+      "22",
+      "21",
+      "50",
+      "62",
+      "62",
+      "34",
+      "29",
+      "52",
+      "40",
+      "30",
+      "66",
+      "64"
+    ]
+  },
+  {
+    "title": "Learning Transferable Visual Models From Natural Language Supervision",
+    "authors": [
+      "Alec Radford",
+      "Jong Wook Kim",
+      "Chris Hallacy",
+      "Aditya Ramesh",
+      "Gabriel Goh",
+      "hini Agarwal",
+      "Girish Sastry",
+      "a Askell",
+      "Pamela Mishkin",
+      "Jack Clark",
+      "Gretchen Krueger",
+      "Ilya Sutskever"
+    ],
+    "abstract": "provingcapabilities. Thedevelopmentof“text-to-text”as State-of-the-art computer vision systems are astandardizedinput-outputinterface(McCannetal.,2018; trained to predict a fixed set of predetermined Radfordetal.,2019;Raffeletal.,2019)hasenabledtask- objectcategories. Thisrestrictedformofsuper- agnosticarchitecturestozero-shottransfertodownstream visionlimitstheirgeneralityandusabilitysince datasetsremovingtheneedforspecializedoutputheadsor additionallabeleddataisneededtospecifyany datasetspecif",
+    "keywords": [],
+    "doi": "",
+    "year": null,
+    "venue": null,
+    "affiliations": [],
+    "emails": [],
+    "references_count": 3,
+    "citations": []
+  },
+  {
+    "title": "LLaMA: Open and Efficient Foundation Language Models",
+    "authors": [],
+    "abstract": "ultimately be cheaper at inference. For instance, WeintroduceLLaMA,acollectionoffounda- although Hoffmann et al. (2022) recommends tionlanguagemodelsrangingfrom7Bto65B training a 10B model on 200B tokens, we find parameters. We train our models on trillions that the performance of a 7B model continues to oftokens,andshowthatitispossibletotrain state-of-the-artmodelsusingpubliclyavailable improveevenafter1Ttokens. datasets exclusively, without resorting to proprietary and inaccessible datasets. I",
+    "keywords": [],
+    "doi": null,
+    "year": null,
+    "venue": null,
+    "affiliations": [],
+    "emails": [],
+    "references_count": 0,
+    "citations": []
+  },
+  {
+    "title": "Attention is All you Need",
+    "authors": [
+      "Ashish Vaswani",
+      "Noam Shazeer",
+      "Niki Parmar",
+      "Jakob Uszkoreit",
+      "Llion Jones",
+      "Aidan N. Gomez",
+      "Łukasz Kaiser",
+      "Illia Polosukhin"
+    ],
+    "abstract": "Thedominantsequencetransductionmodelsarebasedoncomplexrecurrentor convolutionalneuralnetworksthatincludeanencoderandadecoder. Thebest performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, basedsolelyonattentionmechanisms,dispensingwithrecurrenceandconvolutions entirely. Experiments on two machine translation tasks show these models to besuperiorinqualitywhilebeingmoreparallelizableandrequiringsignific",
+    "keywords": [],
+    "doi": null,
+    "year": null,
+    "venue": null,
+    "affiliations": [],
+    "emails": [
+      "illia.polosukhin@gmail.com",
+      "llion@google.com",
+      "lukaszkaiser@google.com",
+      "noam@google.com",
+      "avaswani@google.com"
+    ],
+    "references_count": 32,
+    "citations": [
+      "12",
+      "7",
+      "18",
+      "26",
+      "22",
+      "20",
+      "15",
+      "8",
+      "11"
+    ]
+  }
+]

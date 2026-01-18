@@ -1,0 +1,89 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ===============================
+# Virtual Environments
+# ===============================
+venv/
+env/
+.venv/
+ENV/
+
+# ===============================
+# Environment Variables
+# ===============================
+.env
+.env.*
+*.env
+
+# ===============================
+# IDEs / Editors
+# ===============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===============================
+# OS Files
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===============================
+# Jupyter Notebook Checkpoints
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# Logs
+# ===============================
+*.log
+logs/
+
+# ===============================
+# Model & Cache Files
+# ===============================
+# HuggingFace / Transformers cache
+.cache/
+.huggingface/
+hf_cache/
+
+# Torch cache
+torch_cache/
+
+# Sentence Transformers cache
+sentence_transformers_cache/
+
+# ===============================
+# FAISS / Index Files (Optional)
+# Uncomment if you don't want to commit generated indices
+# ===============================
+# *.faiss
+# *.index
+# *.pkl
+
+# ===============================
+# Build / Distribution
+# ===============================
+build/
+dist/
+*.egg-info/
+
+# ===============================
+# Temporary / Runtime Files
+# ===============================
+*.tmp
+*.temp
+*.bak
+
+# ===============================
+# Data Files (IMPORTANT)
+# ===============================
+# PDFs are intentionally NOT ignored
+# backend/data/papers/*.pdf
